@@ -1,0 +1,16 @@
+network:
+  ethernets:
+    ens18:
+      dhcp4: false
+      addresses:
+        - 10.0.6.202/24
+      nameservers:
+          addresses: [8.8.8.8, 8.8.4.4]
+      routes:
+      - to: 0.0.0.0/0
+        via: 10.0.6.1
+        metric: 99
+    ens19:
+      dhcp4: true
+      dhcp-identifier: mac
+  version: 2

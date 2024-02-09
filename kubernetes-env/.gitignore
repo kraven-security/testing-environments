@@ -1,0 +1,4 @@
+.terraform*
+.vscode
+credentials.auto.tfvars
+terraform.*

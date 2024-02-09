@@ -1,0 +1,1 @@
+kubeadm join 10.0.6.200:6443 --token giylh2.el5tpkg3odlsua1c --discovery-token-ca-cert-hash sha256:249ad48d09b1c9564bcad95d464ff85bdeff6cc9658ccc55c8f080e1625b1a68 
